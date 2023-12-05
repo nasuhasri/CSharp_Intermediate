@@ -15,7 +15,7 @@ namespace Classes
             // if we didnt add constructor class, C# will auto make it for use
 
             Console.WriteLine(customer.Id); // default value by C# - 0
-            Console.WriteLine(customer.Name); // default value by C# - null
+            Console.WriteLine(customer.Name); // default value by C# - null4
         }
     }
 }
