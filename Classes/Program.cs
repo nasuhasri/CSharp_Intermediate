@@ -7,11 +7,10 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            var customer = new Customer();
-            customer.Orders.Add(new Order());
-            customer.Orders.Add(new Order());
+            var person = new Person(new DateTime(1982, 1, 1));
+            //person.Birthdate = new DateTime(1982, 1, 1);
 
-            Console.WriteLine(customer.Orders.Count);
+            Console.WriteLine("Age: {0}", person.Age);
         }
 
         static void UsePoints()

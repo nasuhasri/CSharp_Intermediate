@@ -35,7 +35,7 @@ namespace Classes
 
         public void Promote()
         {
-            Orders = new List<Order>();
+            //Orders = new List<Order>();
         }
     }
 }
