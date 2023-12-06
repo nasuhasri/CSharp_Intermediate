@@ -8,20 +8,10 @@ namespace Classes
         static void Main(string[] args)
         {
             var customer = new Customer();
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
 
-            var order = new Order();
-            customer.Orders.Add(order);
-
-            // if we didnt add constructor class, C# will auto make it for use
-
-            Console.WriteLine(customer.Id); // default value by C# - 0
-            Console.WriteLine(customer.Name); // default value by C# - null4
-
-            UsePoints();
-
-            var calculator = new Calculator();
-            Console.WriteLine(calculator.Add(1, 2));
-            Console.WriteLine(calculator.Add(new int[] {1, 2, 3, 4, 5}));
+            Console.WriteLine(customer.Orders.Count);
         }
 
         static void UsePoints()
@@ -40,6 +30,13 @@ namespace Classes
 
                 Console.WriteLine("An unexpected error occur.");
             }
+        }
+
+        static void UseParams()
+        {
+            var calculator = new Calculator();
+            Console.WriteLine(calculator.Add(1, 2));
+            Console.WriteLine(calculator.Add(new int[] { 1, 2, 3, 4, 5 }));
         }
     }
 }

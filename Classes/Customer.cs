@@ -8,7 +8,11 @@ namespace Classes
         public string Name;
         // generic class that takes parameter so its called generic parameter
         // it represents list of object and the parameter (Order) specifies type of obj
-        public List<Order> Orders;
+        //public List<Order> Orders;
+
+        // always intialize list with empty list
+        public readonly List<Order> Orders = new List<Order>();
+
 
         public Customer()
         {
@@ -27,6 +31,11 @@ namespace Classes
             : this(id)
         {
             this.Name = name;
+        }
+
+        public void Promote()
+        {
+            Orders = new List<Order>();
         }
     }
 }
