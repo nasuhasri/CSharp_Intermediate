@@ -18,6 +18,10 @@ namespace Classes
             Console.WriteLine(customer.Name); // default value by C# - null4
 
             UsePoints();
+
+            var calculator = new Calculator();
+            Console.WriteLine(calculator.Add(1, 2));
+            Console.WriteLine(calculator.Add(new int[] {1, 2, 3, 4, 5}));
         }
 
         static void UsePoints()
