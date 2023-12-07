@@ -1,4 +1,7 @@
-﻿namespace Association
+﻿using System.Collections;
+using System.Collections.Generic;
+
+namespace Association
 {
     internal class Program
     {
@@ -33,6 +36,16 @@
             shape.Width = 100;
 
             System.Console.WriteLine(text1.Width); // return 100
+
+            // this is not a good practice since the list contain a different type of elements
+            var list = new ArrayList();
+            list.Add(1);
+            list.Add("Mosh");
+            list.Add(new Text());
+
+            // this is generic class that takes parameter which is int
+            // every element must be in int type
+            var anotherList = new List<int>();
         }
     }
 }
