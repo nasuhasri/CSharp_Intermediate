@@ -16,6 +16,13 @@
 
             dbMigrator.Migrate();
             installer.Install();
+
+            // access modifier
+            var customer = new Customer();
+
+            // constructor inheritance
+            // base class always executed first; Vehicle -> Car
+            var car = new Car("XYZ123");
         }
     }
 }
