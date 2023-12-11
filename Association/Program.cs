@@ -46,6 +46,9 @@ namespace Association
             // this is generic class that takes parameter which is int
             // every element must be in int type
             var anotherList = new List<int>();
+
+            Shape shape1 = new Text1();
+            Text1 text2 = (Text1) shape;
         }
     }
 }

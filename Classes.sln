@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Association", "Association\Association.csproj", "{284AF587-F765-4E50-B734-17529068E0A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{7C93DD29-1A19-4957-BB83-CA19B371A655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{284AF587-F765-4E50-B734-17529068E0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{284AF587-F765-4E50-B734-17529068E0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{284AF587-F765-4E50-B734-17529068E0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C93DD29-1A19-4957-BB83-CA19B371A655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C93DD29-1A19-4957-BB83-CA19B371A655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C93DD29-1A19-4957-BB83-CA19B371A655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C93DD29-1A19-4957-BB83-CA19B371A655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
