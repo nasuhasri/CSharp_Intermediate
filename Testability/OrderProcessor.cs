@@ -11,7 +11,7 @@ namespace Testability
             _shippingCalculator = shippingCalculator;
         }
 
-        public void Process (Program order)
+        public void Process (Order order)
         {
             if (order.IsShipped)
             {
